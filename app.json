@@ -1,10 +1,11 @@
 {
   "expo": {
-    "name": "Database",
+    "name": "#ToDo",
     "slug": "Database",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+   
+    "icon": "./assets/todo.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -20,6 +21,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package":"com.sid.todo",
+      "versionCode":1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
